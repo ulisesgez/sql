@@ -21,6 +21,15 @@ Tipos de Bases de Datos:
 - Orientadas a Objetos
 - NoSQL
 
+Entidades:
+Son objetos o conceptos del mundo real que se pueden identificar y describir.
+
+Atributos:
+Son las características de las entidades.
+
+Relaciones:
+Son las asociaciones entre las entidades.
+
 Modelo Relacional:
 Es un modelo de datos que representa la información en forma de tablas.
 
