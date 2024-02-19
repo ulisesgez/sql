@@ -24,8 +24,21 @@ Tipos de Bases de Datos:
 Entidades:
 Son objetos o conceptos del mundo real que se pueden identificar y describir.
 
+Tipos de Entidades:
+- De Datos
+- Catálogos
+- Pivotes
+
 Atributos:
 Son las características de las entidades.
+
+Tipos de Datos(Atributos):
+- Numeros enteros y flotantes
+- Cadenas de texto
+- Fechas
+- Booleanos
+- Blobs y archivos
+- Datos geográficos
 
 Relaciones:
 Son las asociaciones entre las entidades.
@@ -83,4 +96,12 @@ Se utiliza para documentar un bloque de código.
 
 Comentario de documentación:
 Se utiliza para documentar un programa.
+
+CRUD:
+Es un acrónimo que se utiliza para referirse a las operaciones básicas de
+manipulación de datos en una base de datos:
+- Create
+- Read
+- Update
+- Delete
 */
