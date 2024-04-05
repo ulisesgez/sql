@@ -1,6 +1,10 @@
 /*
-ORDER BY
-Lección 9.3: https://youtu.be/OuJerKzV5T0?t=6592
+Order By:
+se utiliza para ordenar los resultados de una consulta en función de una o más columnas
+especificadas. Puedes ordenar los resultados en orden ascendente (ascendente)
+o descendente (descendente) según los valores de la columna.
+La cláusula ORDER BY se utiliza en una consulta SQL para ordenar los resultados
+basados en los valores de una o más columnas.
 */
 
 -- Ordena todos los datos de la tabla "users" por edad (ascendente por defecto)

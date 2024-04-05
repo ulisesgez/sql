@@ -1,6 +1,10 @@
 /*
-WHERE
-Lección 9.2: https://youtu.be/OuJerKzV5T0?t=6384
+Where:
+se utiliza para filtrar los resultados de una consulta según una condición específica.
+Se utiliza junto con la sentencia SELECT, UPDATE, DELETE, etc., para restringir las
+filas devueltas o afectadas por la consulta.
+La cláusula WHERE se utiliza en una consulta SQL para aplicar condiciones y filtrar
+las filas que cumplen con esas condiciones.
 */
 
 -- Filtra todos los datos de la tabla "users" con edad igual a 15
