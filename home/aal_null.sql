@@ -1,6 +1,9 @@
 /*
-NULL
-Lección 10.2: https://youtu.be/OuJerKzV5T0?t=7615
+Null:
+Representa un valor desconocido o no disponible. Se utiliza para indicar que un dato
+en una tabla no tiene un valor válido o no está definido. Null es un valor especial
+en SQL que representa la ausencia de un valor válido o conocido.
+
 */
 
 -- Obtiene todos datos de la tabla "users" de la tabla "users" con email nulo
