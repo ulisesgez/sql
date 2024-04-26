@@ -1,6 +1,7 @@
 /*
-COUNT
-Lección 10.4: https://youtu.be/OuJerKzV5T0?t=8043
+Count:
+se utiliza para contar el número de filas que cumplen con ciertas
+condiciones en una tabla o un conjunto de resultados.
 */
 
 -- Cuenta cuantas filas contiene la tabla "users"
