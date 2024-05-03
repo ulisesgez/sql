@@ -1,6 +1,8 @@
 /*
 IN
-Lección 10.7: https://youtu.be/OuJerKzV5T0?t=8335
+en SQL se utiliza para comparar un valor con una lista de valores posibles.
+Permite comprobar si un valor está presente en una lista de
+valores o en los resultados de una subconsulta.
 */
 
 -- Ordena todos los datos de la tabla "users" con nombre igual a brais y sara

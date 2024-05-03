@@ -1,6 +1,7 @@
 /*
 AVG
-Lección 10.6: https://youtu.be/OuJerKzV5T0?t=8293
+se utiliza para calcular el promedio de los valores en una columna específica.
+Puede ser útil para calcular el promedio de valores numéricos en una tabla.
 */
 
 -- Obitne la media de edad de la tabla "users"

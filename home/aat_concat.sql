@@ -1,6 +1,8 @@
 /*
 CONCAT
-Lección 10.10: https://youtu.be/OuJerKzV5T0?t=8826
+se utiliza para concatenar dos o más cadenas de texto en una sola cadena.
+Esto es útil para combinar valores de múltiples columnas o agregar texto
+adicional a una columna en una consulta.
 */
 
 -- Concatena en una sola columa los campos nombre y apellido

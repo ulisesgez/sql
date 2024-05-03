@@ -1,6 +1,8 @@
 /*
 ALIAS
-Lección 10.9: https://youtu.be/OuJerKzV5T0?t=8667
+un alias es un nombre alternativo que se le da a una tabla o a una columna en
+una consulta. Los alias se utilizan para hacer que los resultados de la consulta
+sean más legibles y comprensibles, o para abreviar nombres largos.
 */
 
 -- Establece el alias 'Fecha de inicio en programación' a la columna init_date
