@@ -1,6 +1,9 @@
 /*
 CASE
-Lección 10.13: https://youtu.be/OuJerKzV5T0?t=9486
+se utiliza para realizar evaluaciones condicionales en una consulta y devolver
+un valor basado en el resultado de la evaluación. Puede ser útil para realizar
+transformaciones en los datos o aplicar lógica condicional en los resultados
+de una consulta.
 */
 
 -- Obtiene todos los datos de la tabla "users" y establece condiciones de visualización de cadenas de texto según el valor de la edad 

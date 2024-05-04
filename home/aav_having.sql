@@ -1,6 +1,8 @@
 /*
 HAVING
-Lección 10.12: https://youtu.be/OuJerKzV5T0?t=9265
+se utiliza junto con la cláusula GROUP BY para filtrar los resultados de una
+consulta que incluye funciones de agregación. Se utiliza para aplicar condiciones
+a los grupos resultantes después de haber sido agrupados por la cláusula GROUP BY.
 */
 
 -- Cuenta cuantas filas contienen un dato no nulo en el campo edad de la tabla "users" mayor que 3

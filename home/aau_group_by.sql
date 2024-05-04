@@ -1,6 +1,8 @@
 /*
 GROUP BY
-Lección 10.11: https://youtu.be/OuJerKzV5T0?t=8960
+se utiliza para agrupar filas que tienen los mismos valores en una o más columnas,
+y luego aplicar funciones de agregación, como SUM(), COUNT(), AVG(), etc., a cada
+grupo resultante.
 */
 
 -- Agrupa los resultados por edad diferente
