@@ -1,6 +1,7 @@
 /*
 INSERT
-Lección 11.1: https://youtu.be/OuJerKzV5T0?t=10370
+se utiliza para insertar nuevos registros en una tabla. Puedes especificar los valores
+para cada columna que desees incluir en el nuevo registro.
 */
 
 -- Inserta un registro con identificador, nombre y apellido en la tabla "users"
