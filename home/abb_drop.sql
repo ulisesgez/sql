@@ -7,3 +7,6 @@ eliminar, usarás una variante específica de la sentencia DROP.
 
 -- Elimina la base de datos llamada "test"
 DROP DATABASE test;
+
+-- Elimina la tabla llamada "persons8"
+DROP TABLE persons8;

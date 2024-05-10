@@ -1,6 +1,6 @@
 /*
 DELETE
-Lección 11.3: https://youtu.be/OuJerKzV5T0?t=10920
+se utiliza para eliminar uno o más registros de una tabla.
 */
 
 -- Elimina el registro de la tabla "users" con identificador igual a 11
