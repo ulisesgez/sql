@@ -1,0 +1,3 @@
+# Ignorar configuración de JetBrains (como DataGrip o IntelliJ)
+.idea/
+*.iml
