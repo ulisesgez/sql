@@ -33,7 +33,32 @@ Para utilizar un lenguaje de programación del lado del servidor, como PHP o ASP
 Para usar SQL para obtener los datos que desea
 Usar HTML/CSS para diseñar la página
 
-RDBMS
+Dato:
+Es una representación básica de una realidad, sin contexto ni procesamiento.
+Por ejemplo: "25", "azul", "Carlos".
+
+Información:
+Es el resultado de procesar y contextualizar los datos para que tengan significado y sean útiles.
+Por ejemplo: "Carlos tiene 25 años y le gusta el color azul".
+
+Diferencia:
+
+El dato es materia prima.
+La información es el producto final que aporta valor y comprensión.
+
+SGBD:
+SGBD (o DBMS, por sus siglas en inglés): Es un Sistema de Gestión de Bases de Datos.
+Es un software que permite crear, administrar, y manipular bases de datos de forma eficiente y segura.
+
+Funciones clave:
+Almacenar y organizar datos.
+Permitir consultas (como con SQL).
+Controlar el acceso y la seguridad.
+Mantener la integridad de los datos.
+
+Ejemplos: MySQL, PostgreSQL, Oracle, MongoDB (para NoSQL), SQL Server.
+
+RDBMS:
 RDBMS significa Sistema de gestión de bases de datos relacionales.
 
 RDBMS es la base de SQL y de todos los sistemas de bases de datos modernos, como MS SQL Server,
@@ -57,17 +82,4 @@ horizontal en una tabla.
 
 Una columna es una entidad vertical en una tabla que contiene toda la información
 asociada con un campo específico en una tabla.
-
-Dato:
-Es una representación básica de una realidad, sin contexto ni procesamiento.
-Por ejemplo: "25", "azul", "Carlos".
-
-Información:
-Es el resultado de procesar y contextualizar los datos para que tengan significado y sean útiles.
-Por ejemplo: "Carlos tiene 25 años y le gusta el color azul".
-
-Diferencia:
-
-El dato es materia prima.
-La información es el producto final que aporta valor y comprensión.
 */
