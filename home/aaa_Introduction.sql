@@ -58,6 +58,18 @@ Mantener la integridad de los datos.
 
 Ejemplos: MySQL, PostgreSQL, Oracle, MongoDB (para NoSQL), SQL Server.
 
+Las bases de datos relacionales organizan la información en tablas con
+filas y columnas, usando SQL para consultar y gestionar los datos. Son ideales para
+datos estructurados y con relaciones claras entre ellos, como en sistemas financieros o de inventarios.
+Ejemplos: MySQL, PostgreSQL.
+
+Las bases de datos no relacionales no siguen el modelo tabular, y pueden almacenar datos en
+formatos más flexibles como documentos, clave-valor o grafos. Son útiles para manejar grandes
+volúmenes de datos no estructurados o cambiantes. Ejemplos: MongoDB, Cassandra.
+
+La diferencia clave es que las relacionales son más estructuradas y usan SQL, mientras que las no
+relacionales son más flexibles y escalables.
+
 RDBMS:
 RDBMS significa Sistema de gestión de bases de datos relacionales.
 
