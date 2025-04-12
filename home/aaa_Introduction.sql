@@ -23,7 +23,7 @@ SQL es un estándar, PERO....
 Aunque SQL es un estándar ANSI/ISO, existen diferentes versiones del lenguaje SQL.
 
 Sin embargo, para cumplir con el estándar ANSI, todos admiten al menos los comandos
-principales (como,,,, ) de SELECTmanera similar .UPDATE DELETEINSERT WHERE
+principales como SELECT, INSERT, UPDATE, DELETE y WHERE, de manera similar.
 
 Usando SQL en su sitio web
 Para crear un sitio web que muestre datos de una base de datos, necesitará:
