@@ -36,9 +36,11 @@ Usar HTML/CSS para diseñar la página
 RDBMS
 RDBMS significa Sistema de gestión de bases de datos relacionales.
 
-RDBMS es la base de SQL y de todos los sistemas de bases de datos modernos, como MS SQL Server, IBM DB2, Oracle, MySQL y Microsoft Access.
+RDBMS es la base de SQL y de todos los sistemas de bases de datos modernos, como MS SQL Server,
+IBM DB2, Oracle, MySQL y Microsoft Access.
 
-Los datos en RDBMS se almacenan en objetos de base de datos llamados tablas. Una tabla es una colección de entradas de datos relacionados y consta de columnas y filas.
+Los datos en RDBMS se almacenan en objetos de base de datos llamados tablas.
+Una tabla es una colección de entradas de datos relacionados y consta de columnas y filas.
 
 Mire la tabla "Clientes":
 
