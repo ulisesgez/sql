@@ -57,4 +57,17 @@ horizontal en una tabla.
 
 Una columna es una entidad vertical en una tabla que contiene toda la información
 asociada con un campo específico en una tabla.
+
+Dato:
+Es una representación básica de una realidad, sin contexto ni procesamiento.
+Por ejemplo: "25", "azul", "Carlos".
+
+Información:
+Es el resultado de procesar y contextualizar los datos para que tengan significado y sean útiles.
+Por ejemplo: "Carlos tiene 25 años y le gusta el color azul".
+
+Diferencia:
+
+El dato es materia prima.
+La información es el producto final que aporta valor y comprensión.
 */
