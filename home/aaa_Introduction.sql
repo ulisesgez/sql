@@ -1,50 +1,29 @@
 /*
-Introducción a SQL:
-SQL es un lenguaje estándar para acceder y manipular bases de datos.
+SQL:
+SQL (Structured Query Language) es un lenguaje estándar utilizado para gestionar y manipular
+bases de datos relacionales. Permite a los usuarios ejecutar consultas, recuperar y modificar
+datos, así como administrar estructuras de bases de datos como tablas, vistas y procedimientos
+almacenados. Aunque existen diferentes versiones según el sistema de gestión
+(como MySQL, PostgreSQL, SQL Server, etc.), todos los motores cumplen con un conjunto básico
+de comandos definidos por el estándar ANSI/ISO.
 
-¿Qué es SQL?
-SQL significa lenguaje de consulta estructurado
-SQL le permite acceder y manipular bases de datos
-SQL se convirtió en un estándar del Instituto Nacional Estadounidense de Estándares (ANSI)
-en 1986 y de la Organización Internacional de Normalización (ISO) en 1987.
-
-¿Qué puede hacer SQL?
-SQL puede ejecutar consultas en una base de datos
-SQL puede recuperar datos de una base de datos
-SQL puede insertar registros en una base de datos
-SQL puede actualizar registros en una base de datos
-SQL puede eliminar registros de una base de datos
-SQL puede crear nuevas bases de datos
-SQL puede crear nuevas tablas en una base de datos
-SQL puede crear procedimientos almacenados en una base de datos.
-SQL puede crear vistas en una base de datos
-SQL puede establecer permisos sobre tablas, procedimientos y vistas
-SQL es un estándar, PERO....
-Aunque SQL es un estándar ANSI/ISO, existen diferentes versiones del lenguaje SQL.
-
-Sin embargo, para cumplir con el estándar ANSI, todos admiten al menos los comandos
-principales como SELECT, INSERT, UPDATE, DELETE y WHERE, de manera similar.
-
-Usando SQL en su sitio web
-Para crear un sitio web que muestre datos de una base de datos, necesitará:
-
-Un programa de base de datos RDBMS (es decir, MS Access, SQL Server, MySQL)
-Para utilizar un lenguaje de programación del lado del servidor, como PHP o ASP
-Para usar SQL para obtener los datos que desea
-Usar HTML/CSS para diseñar la página
+-- Consultar todos los registros de la tabla "clientes"
+SELECT * FROM clientes;
 
 Dato:
-Es una representación básica de una realidad, sin contexto ni procesamiento.
-Por ejemplo: "25", "azul", "Carlos".
+Un dato es una unidad básica de información que representa hechos aislados, sin un contexto
+que le otorgue significado. Es la materia prima que, por sí sola, no comunica algo útil hasta
+que se organiza o interpreta adecuadamente. Puede ser un número, una palabra o un símbolo.
+
+"25", "azul", "Carlos"
 
 Información:
-Es el resultado de procesar y contextualizar los datos para que tengan significado y sean útiles.
-Por ejemplo: "Carlos tiene 25 años y le gusta el color azul".
+La información es el resultado de procesar, organizar y contextualizar datos, dándoles
+significado para que sean comprensibles y útiles en la toma de decisiones o en la comprensión
+de una situación. Aporta valor al transformar datos aislados en conocimiento.
 
-Diferencia:
+"Carlos tiene 25 años y le gusta el color azul"
 
-El dato es materia prima.
-La información es el producto final que aporta valor y comprensión.
 
 SGBD:
 SGBD (o DBMS, por sus siglas en inglés): Es un Sistema de Gestión de Bases de Datos.
