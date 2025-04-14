@@ -70,6 +70,10 @@ volúmenes de datos no estructurados o cambiantes. Ejemplos: MongoDB, Cassandra.
 La diferencia clave es que las relacionales son más estructuradas y usan SQL, mientras que las no
 relacionales son más flexibles y escalables.
 
+Entidades:
+
+Atributos:
+
 RDBMS:
 RDBMS significa Sistema de gestión de bases de datos relacionales.
 
