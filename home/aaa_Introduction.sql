@@ -24,57 +24,62 @@ de una situación. Aporta valor al transformar datos aislados en conocimiento.
 
 "Carlos tiene 25 años y le gusta el color azul"
 
+Diferencia entre dato e información:
+La diferencia clave entre un dato y la información radica en el nivel de procesamiento:
+el dato es la materia prima, un valor sin interpretación; mientras que la información
+es el producto final, un conjunto de datos procesados que tienen sentido y utilidad.
 
-SGBD:
-SGBD (o DBMS, por sus siglas en inglés): Es un Sistema de Gestión de Bases de Datos.
-Es un software que permite crear, administrar, y manipular bases de datos de forma eficiente y segura.
+Dato: "Carlos", "25"
+Información: "Carlos tiene 25 años"
 
-Funciones clave:
-Almacenar y organizar datos.
-Permitir consultas (como con SQL).
-Controlar el acceso y la seguridad.
-Mantener la integridad de los datos.
+SGBD (Sistema de Gestión de Bases de Datos):
+Un SGBD (o DBMS, por sus siglas en inglés) es un software que permite crear,
+administrar y manipular bases de datos de manera eficiente, estructurada y segura.
+Sus funciones clave incluyen almacenar datos, permitir consultas mediante
+lenguajes como SQL, controlar el acceso de usuarios, asegurar la integridad de la
+información y facilitar la recuperación ante fallos. Es fundamental para trabajar
+con grandes volúmenes de datos en sistemas informáticos.
 
-Ejemplos: MySQL, PostgreSQL, Oracle, MongoDB (para NoSQL), SQL Server.
+Algunos ejemplos de SGBD son: MySQL, PostgreSQL, Oracle, SQL Server y MongoDB (para bases de datos NoSQL).
 
-Las bases de datos relacionales organizan la información en tablas con
-filas y columnas, usando SQL para consultar y gestionar los datos. Son ideales para
-datos estructurados y con relaciones claras entre ellos, como en sistemas financieros o de inventarios.
-Ejemplos: MySQL, PostgreSQL.
+Base de datos relacional:
+Una base de datos relacional organiza la información en tablas compuestas por filas y columnas,
+y utiliza SQL como lenguaje principal para consultar y gestionar los datos. Este modelo es ideal
+para datos estructurados que mantienen relaciones claras entre sí, como los que se encuentran
+en sistemas bancarios, administrativos o de inventarios.
 
-Las bases de datos no relacionales no siguen el modelo tabular, y pueden almacenar datos en
-formatos más flexibles como documentos, clave-valor o grafos. Son útiles para manejar grandes
-volúmenes de datos no estructurados o cambiantes. Ejemplos: MongoDB, Cassandra.
+Ejemplos de bases de datos relacionales: MySQL, PostgreSQL.
 
-La diferencia clave es que las relacionales son más estructuradas y usan SQL, mientras que las no
-relacionales son más flexibles y escalables.
+Base de datos no relacional:
+Una base de datos no relacional (NoSQL) no se basa en el modelo de tablas, sino que almacena
+la información en estructuras más flexibles como documentos, pares clave-valor, columnas o grafos.
+Son útiles para trabajar con datos no estructurados, grandes volúmenes de información o sistemas
+que requieren escalabilidad horizontal, como aplicaciones web modernas o redes sociales.
 
-Entidades:
+Ejemplos de bases de datos no relacionales: MongoDB, Cassandra.
 
-Atributos:
+Diferencia entre base de datos relacional y no relacional:
+La principal diferencia es que las bases de datos relacionales son más estructuradas y utilizan SQL
+para la gestión de datos, mientras que las bases de datos no relacionales ofrecen mayor flexibilidad
+en el almacenamiento y son más adecuadas para escalar horizontalmente y adaptarse a datos variados
+o en constante cambio.
 
-RDBMS:
-RDBMS significa Sistema de gestión de bases de datos relacionales.
+Relacional: MySQL usa tablas con relaciones entre ellas.
+No relacional: MongoDB usa documentos JSON sin una estructura fija.
 
-RDBMS es la base de SQL y de todos los sistemas de bases de datos modernos, como MS SQL Server,
-IBM DB2, Oracle, MySQL y Microsoft Access.
+Entidad:
+Una entidad representa un objeto, persona, lugar o concepto del mundo real que puede describirse
+mediante datos en una base de datos. En el modelo entidad-relación, cada entidad se traduce en
+una tabla que almacena información sobre ese tipo de objeto. Cada fila de la tabla representa una
+instancia concreta de la entidad.
 
-Los datos en RDBMS se almacenan en objetos de base de datos llamados tablas.
-Una tabla es una colección de entradas de datos relacionados y consta de columnas y filas.
+Entidad: Estudiante
+Cada estudiante se representa como una fila en la tabla "Estudiantes".
 
-Mire la tabla "Clientes":
+Atributo:
+Un atributo es una característica o propiedad que describe a una entidad.
+En una base de datos relacional, los atributos corresponden a las columnas de una tabla.
+Cada atributo almacena un tipo específico de dato que ayuda a definir una instancia de la entidad.
 
-SELECT * FROM Customers;
-
-Cada tabla se divide en entidades más pequeñas llamadas campos. Los campos de la tabla
-Clientes constan de ID de cliente, Nombre de cliente, Nombre de contacto, Dirección,
-Ciudad, Código postal y País. Un campo es una columna de una tabla diseñada para
-mantener información específica sobre cada registro de la tabla.
-
-Un registro, también llamado fila, es cada entrada individual que existe en una tabla.
-Por ejemplo, hay 91 registros en la tabla Clientes anterior. Un registro es una entidad
-horizontal en una tabla.
-
-Una columna es una entidad vertical en una tabla que contiene toda la información
-asociada con un campo específico en una tabla.
+Atributos de la entidad "Estudiante": nombre, edad, matrícula, carrera.
 */
