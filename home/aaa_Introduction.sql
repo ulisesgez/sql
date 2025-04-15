@@ -73,8 +73,7 @@ mediante datos en una base de datos. En el modelo entidad-relación, cada entida
 una tabla que almacena información sobre ese tipo de objeto. Cada fila de la tabla representa una
 instancia concreta de la entidad.
 
-Entidad: Estudiante
-Cada estudiante se representa como una fila en la tabla "Estudiantes".
+Entidad: Estudiante. Cada estudiante se representa como una fila en la tabla "Estudiantes".
 
 Atributo:
 Un atributo es una característica o propiedad que describe a una entidad.
