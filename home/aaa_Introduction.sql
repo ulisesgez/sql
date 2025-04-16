@@ -11,14 +11,14 @@ de comandos definidos por el estándar ANSI/ISO.
 SELECT * FROM clientes;
 
 Dato:
-Un dato es una unidad básica de información que representa hechos aislados, sin un contexto
+Es una unidad básica de información que representa hechos aislados, sin un contexto
 que le otorgue significado. Es la materia prima que, por sí sola, no comunica algo útil hasta
 que se organiza o interpreta adecuadamente. Puede ser un número, una palabra o un símbolo.
 
 "25", "azul", "Carlos"
 
 Información:
-La información es el resultado de procesar, organizar y contextualizar datos, dándoles
+Es el resultado de procesar, organizar y contextualizar datos, dándoles
 significado para que sean comprensibles y útiles en la toma de decisiones o en la comprensión
 de una situación. Aporta valor al transformar datos aislados en conocimiento.
 
