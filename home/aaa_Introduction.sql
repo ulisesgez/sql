@@ -108,4 +108,19 @@ En una base de datos relacional, los atributos corresponden a las columnas de un
 Cada atributo almacena un tipo específico de dato que ayuda a definir una instancia de la entidad.
 
 Atributos de la entidad "Estudiante": nombre, edad, matrícula, carrera.
+
+Tipos de datos:
+Los tipos de datos definen el tipo de valor que puede almacenar un atributo (columna)
+dentro de una tabla en SQL. Son fundamentales para garantizar que los datos se
+almacenen correctamente y para aplicar validaciones automáticas. Cada tipo de
+dato está diseñado para una finalidad específica: números, texto, fechas, booleanos, etc.
+Elegir el tipo adecuado mejora el rendimiento y la integridad de los datos.
+
+CREATE TABLE Persona (
+  id INT,                  -- número entero
+  nombre VARCHAR(50),      -- texto de hasta 50 caracteres
+  fecha_nacimiento DATE,   -- fecha
+  salario DECIMAL(10,2),   -- número decimal con 2 decimales
+  activo BOOLEAN           -- verdadero/falso
+);
 */
