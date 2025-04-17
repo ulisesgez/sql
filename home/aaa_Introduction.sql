@@ -123,4 +123,22 @@ CREATE TABLE Persona (
   salario DECIMAL(10,2),   -- número decimal con 2 decimales
   activo BOOLEAN           -- verdadero/falso
 );
+
+CRUD:
+CRUD es un acrónimo que representa las cuatro operaciones básicas que se pueden realizar sobre
+los datos en una base de datos: Crear (Create), Leer (Read), Actualizar (Update) y Eliminar (Delete).
+Estas acciones son esenciales en el desarrollo de aplicaciones que interactúan con bases de datos,
+y se implementan comúnmente usando sentencias SQL como INSERT, SELECT, UPDATE y DELETE.
+
+-- CREATE: Insertar un nuevo registro
+INSERT INTO productos (nombre, precio) VALUES ('Mouse', 250.00);
+
+-- READ: Consultar datos
+SELECT * FROM productos;
+
+-- UPDATE: Modificar un registro existente
+UPDATE productos SET precio = 300.00 WHERE nombre = 'Mouse';
+
+-- DELETE: Eliminar un registro
+DELETE FROM productos WHERE nombre = 'Mouse';
 */
