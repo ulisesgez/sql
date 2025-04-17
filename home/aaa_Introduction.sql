@@ -75,6 +75,33 @@ instancia concreta de la entidad.
 
 Entidad: Estudiante. Cada estudiante se representa como una fila en la tabla "Estudiantes".
 
+Entidad de tipo Dato:
+Una entidad de tipo Dato representa objetos principales dentro del dominio del sistema, como personas,
+productos, o eventos. Son entidades que contienen información importante y directamente relacionada
+con el funcionamiento central de la aplicación o base de datos. Suelen tener muchos atributos y
+pueden relacionarse con otras entidades.
+
+Entidad "Empleado" con atributos: nombre, cargo, salario, fecha_ingreso.
+
+Entidad de tipo Catalogo:
+Una entidad de tipo Catálogo contiene datos que no cambian con frecuencia y sirven para
+clasificar o estandarizar información. Normalmente, estas entidades se utilizan como
+referencia para llenar listas desplegables o establecer categorías, estados o tipos.
+Se relacionan con otras entidades a través de claves foráneas.
+
+Entidad "Puestos" con atributos: id_puesto, nombre_puesto.
+Se usa en la entidad "Empleado" para indicar el puesto que ocupa cada persona.
+
+Entidad de tipo Pivote:
+Una entidad de tipo Pivote (también llamada entidad intermedia o tabla de relación)
+se utiliza para representar relaciones muchos a muchos entre dos entidades.
+No almacena información propia significativa, sino que su propósito principal
+es conectar registros de otras tablas, aunque puede incluir atributos
+adicionales específicos de la relación.
+
+Entidad "AlumnoCurso" que relaciona "Alumno" y "Curso"
+Atributos: id_alumno, id_curso, fecha_inscripción.
+
 Atributo:
 Un atributo es una característica o propiedad que describe a una entidad.
 En una base de datos relacional, los atributos corresponden a las columnas de una tabla.
