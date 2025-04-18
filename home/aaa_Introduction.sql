@@ -142,8 +142,7 @@ UPDATE productos SET precio = 300.00 WHERE nombre = 'Mouse';
 -- DELETE: Eliminar un registro
 DELETE FROM productos WHERE nombre = 'Mouse';
 
-Lógica de negocio
-Definición:
+Lógica de negocio:
 La lógica de negocio es el conjunto de reglas, procesos y condiciones que definen el
 comportamiento y las operaciones de una aplicación según los objetivos del negocio o sistema.
 En el contexto de bases de datos, puede incluir validaciones, cálculos, restricciones o flujos
