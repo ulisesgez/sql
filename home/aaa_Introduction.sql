@@ -40,7 +40,8 @@ lenguajes como SQL, controlar el acceso de usuarios, asegurar la integridad de l
 información y facilitar la recuperación ante fallos. Es fundamental para trabajar
 con grandes volúmenes de datos en sistemas informáticos.
 
-Algunos ejemplos de SGBD son: MySQL, PostgreSQL, Oracle, SQL Server y MongoDB (para bases de datos NoSQL).
+Algunos ejemplos de SGBD son: MySQL, PostgreSQL, Oracle, SQL Server
+y MongoDB (para bases de datos NoSQL).
 
 Base de datos relacional:
 Una base de datos relacional organiza la información en tablas compuestas por filas y columnas,
