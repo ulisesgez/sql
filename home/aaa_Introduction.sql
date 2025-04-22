@@ -150,4 +150,18 @@ En el contexto de bases de datos, puede incluir validaciones, cálculos, restric
 que aseguren que los datos sean coherentes con las reglas del dominio.
 Esta lógica puede implementarse en el código de la aplicación, en procedimientos almacenados o
 mediante restricciones en la base de datos.
+
+Llaves:
+En el contexto de bases de datos, una llave es un atributo o un conjunto de atributos que se
+utiliza para identificar de manera única una fila dentro de una tabla.
+Las llaves aseguran la integridad de los datos y permiten establecer relaciones entre diferentes tablas.
+Existen varios tipos de llaves, como la llave primaria (que identifica de forma única cada registro),
+la llave foránea (que crea vínculos entre tablas), y la llave candidata (atributos que pueden ser llave primaria).
+Las llaves son fundamentales para garantizar la consistencia y organización de la información en
+una base de datos relacional.
+
+Ejemplo:
+En una tabla de estudiantes, la columna "matrícula" podría ser la llave primaria,
+ya que cada estudiante tiene una matrícula única. En otra tabla de calificaciones,
+esa misma matrícula funcionaría como llave foránea para relacionar las calificaciones con el estudiante correspondiente.
 */
