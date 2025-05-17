@@ -160,7 +160,6 @@ la llave foránea (que crea vínculos entre tablas), y la llave candidata (atrib
 Las llaves son fundamentales para garantizar la consistencia y organización de la información en
 una base de datos relacional.
 
-Ejemplo:
 En una tabla de estudiantes, la columna "matrícula" podría ser la llave primaria,
 ya que cada estudiante tiene una matrícula única. En otra tabla de calificaciones,
 esa misma matrícula funcionaría como llave foránea para relacionar las calificaciones con el estudiante correspondiente.
