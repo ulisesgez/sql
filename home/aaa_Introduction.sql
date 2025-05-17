@@ -163,4 +163,27 @@ una base de datos relacional.
 En una tabla de estudiantes, la columna "matrícula" podría ser la llave primaria,
 ya que cada estudiante tiene una matrícula única. En otra tabla de calificaciones,
 esa misma matrícula funcionaría como llave foránea para relacionar las calificaciones con el estudiante correspondiente.
+
+Tipos de llaves (keys):
+En SQL, las llaves son restricciones que garantizan la integridad y unicidad de los
+datos en una base de datos relacional. Las más comunes son: llave primaria (PRIMARY KEY),
+que identifica de forma única cada fila de una tabla; llave foránea (FOREIGN KEY),
+que establece una relación entre dos tablas; y llaves candidatas o alternativas,
+que son campos únicos que podrían actuar como llave primaria. Estas llaves aseguran
+que los datos se mantengan consistentes y correctamente relacionados.
+
+-- Crear una tabla "clientes" con una llave primaria
+CREATE TABLE clientes (
+  id INT PRIMARY KEY,
+  nombre VARCHAR(100),
+  correo VARCHAR(100) UNIQUE
+);
+
+-- Crear una tabla "pedidos" con una llave foránea que referencia a "clientes"
+CREATE TABLE pedidos (
+  id INT PRIMARY KEY,
+  fecha DATE,
+  cliente_id INT,
+  FOREIGN KEY (cliente_id) REFERENCES clientes(id)
+);
 */
